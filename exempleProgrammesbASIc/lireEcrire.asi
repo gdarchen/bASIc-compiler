@@ -1,0 +1,3 @@
+lire n
+n = 2*n
+ecrire n

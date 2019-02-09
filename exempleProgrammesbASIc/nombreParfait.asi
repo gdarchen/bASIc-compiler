@@ -1,0 +1,12 @@
+debut: lire n
+si n<2 alors allera debut
+i = 1
+boucle: s = 0
+j = 1
+somme: si j>i/2 alors allera finsomme
+si j*(i/j) == i alors s=s+j
+j=j+1
+allera somme
+finsomme : si s == i alors ecrire i
+i = i+1
+si i<=n alors allera boucle

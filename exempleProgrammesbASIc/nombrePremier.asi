@@ -1,0 +1,11 @@
+debut : lire n
+i=0
+si (n <= 1) alors allera res0
+boucle: i=i+1
+si (i == n) alors allera res1
+si ((i != 1) et (i*(n/i) == n)) alors allera res0
+allera boucle
+res1: ecrire 1 
+allera fin
+res0: ecrire 0
+fin: i=0

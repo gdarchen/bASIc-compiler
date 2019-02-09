@@ -1,0 +1,7 @@
+lire a
+fact = 1
+test : si a == 0 alors allera fin
+fact = fact * a
+a = a-1
+allera test
+fin : ecrire fact
